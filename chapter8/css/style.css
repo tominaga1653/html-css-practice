@@ -34,4 +34,27 @@ header .scroll {
   position: absolute;
   left: 0;
   bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 16px;
+}
+header .scroll img {
+  margin-top: 8px;
+}
+header nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+  width: 1240px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+header nav ul li a:hover {
+  text-decoration: underline;
 }
