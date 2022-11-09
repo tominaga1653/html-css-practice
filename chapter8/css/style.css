@@ -58,3 +58,28 @@ header nav ul {
 header nav ul li a:hover {
   text-decoration: underline;
 }
+.msgSec {
+  background-color: #fbfaf7;
+}
+.msgSec p {
+  text-align: center;
+  line-height: 1.75;
+  margin-bottom: 40px;
+}
+.msgSec p.illust {
+  margin-top: 80px;
+  margin-bottom: 0;
+  position: relative;
+}
+.msgSec p.illust::before {
+  content: url(../../images/deco_left.png);
+  position: absolute;
+  left: 320px;
+  bottom: -30px;
+}
+.msgSec p.illust::after {
+  content: url(../../images/deco_right.png);
+  position: absolute;
+  right: 320px;
+  bottom: -30px;
+}
