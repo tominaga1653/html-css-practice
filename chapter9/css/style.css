@@ -200,3 +200,21 @@ input[type="submit"]:hover {
   transition-timing-function: ease-in;
   transition-delay: 0ms;
 }
+@keyframes scrollAnimasion {
+  0% {
+    transform: scaleY(0);
+    transform-origin: top;
+  }
+  50% {
+    transform: scaleY(1);
+    transform-origin: top;
+  }
+  50.1% {
+    transform: scaleY(1);
+    transform-origin: bottom;
+  }
+  100% {
+    transform: scaleY(0);
+    transform-origin: bottom;
+  }
+}
