@@ -192,3 +192,11 @@ footer {
   background: url(../../images/bg.jpg) no-repeat center/cover;
   z-index: -1;
 }
+input[type="submit"]:hover {
+  background-color: #c7887f;
+  margin-left: 20px;
+  transition-property: background-color,margin-left;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in;
+  transition-delay: 0ms;
+}
