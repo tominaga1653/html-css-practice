@@ -218,3 +218,24 @@ input[type="submit"]:hover {
     transform-origin: bottom;
   }
 }
+header .scroll img {
+  animation-name: scrollAnimasion;
+  animation-duration: 1.8s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+}
+@media screen and (max-width: 640px) {
+  .dateSec .layoutWrap {
+    display: block;
+  }
+  .innerWrap,
+  header nav ul,
+  form {
+    width: 100%;
+  }
+  header h1 img,
+  .msgSec p.illust img,
+  .dateSec .layoutWrap > p img {
+    width: 100%;
+  }
+}
