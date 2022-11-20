@@ -238,4 +238,55 @@ header .scroll img {
   .dateSec .layoutWrap > p img {
     width: 100%;
   }
+  .msgSec p.illust::before {
+    left: -16px;
+    bottom: -80px;
+    transform: scale(0.7);
+  }
+  .msgSec p.illust::after {
+    right: -16px;
+    bottom: -80px;
+    transform: scale(0.7);
+  }
+  body {
+    font-size: 16px;
+  }
+  main h2 {
+    font-size: 44px;
+    margin-bottom: 60px;
+  }
+  header {
+    background: url(../../images/hero_sp.jpg) no-repeat right top/cover;
+  }
+  header .innerWrap {
+    height: 90vh;
+  }
+  header h1 {
+    padding-top: 80px;
+  }
+  .msgSec p {
+    text-align: left;
+  }
+  .dateSec .dateDetailSec {
+    font-size: 36px;
+    margin: 0 0 0 25%;
+    padding: 20px 20px;
+  }
+  .word1 {font-size: 25px;}
+  .word2 {font-size: 20px;}
+  .word3 {font-size: 30px;}
+  .dateSec .layoutWrap > div {
+    padding-top: 0;
+    transform: translateY(-50px);
+  }
+  .accessSec h3 {
+    font-size: 44px;
+  }
+  .accessSec {
+    margin: 32px 0 0 32px;
+  }
+  .dateSec {
+    padding-bottom: 40px;
+    margin-bottom: 250px;
+  }
 }
