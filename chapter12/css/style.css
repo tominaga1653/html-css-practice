@@ -103,6 +103,24 @@ footer p img {
   font-size: 12px;
   line-height: 1.78;
 }
+.conceptDetailSec .photo {
+  margin-bottom: 14px;
+}
 .conceptDetailSec {
+  margin-bottom: 50px;
+}
+.menuList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.menuList li {
+  flex-basis: 42%;
+  margin-bottom: 28px;
+}
+.menuList li img {
+  filter: drop-shadow(1px 2px 3px #ddd);
+}
+.menuDetailSec {
   margin-bottom: 50px;
 }
